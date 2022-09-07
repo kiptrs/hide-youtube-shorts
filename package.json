@@ -1,0 +1,17 @@
+{
+  "name": "mozz-hide-yt-shorts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hide-yt-shorts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "web-ext build --overwrite-dest",
+    "lint": "web-ext lint",
+    "sign": "web-ext sign"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "web-ext-plugin": "^2.1.1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "hide_youtube_shorts",
+  "version": "1.1",
+  "description": "Hide YouTube shorts from subscriptions page.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["hide_youtube_shorts.js"]
+    }
+  ]
+}
