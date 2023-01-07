@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "package": "web-ext build --overwrite-dest",
     "lint": "web-ext lint",
-    "sign": "web-ext sign"
+    "sign": "web-ext sign --channel=unlisted --id=\"{8aff319f-d301-4066-911c-5b0ee3cc5c53}\""
   },
   "author": "",
   "license": "ISC",

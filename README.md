@@ -6,3 +6,7 @@
 - Download the `_.xpi` file
 - Run it with Firefox and install
 - No more YouTube shorts videos present in your YouTube Home, Subscriptions, etc. pages
+
+## Deploy new version
+
+- `npm run sign -- --api-key=x --api-secret=x`

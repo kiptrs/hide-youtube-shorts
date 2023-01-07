@@ -10,6 +10,6 @@ setTimeout(() => {
 }, 2000);
 const hideShorts = () => {
   document.querySelectorAll('[overlay-style="SHORTS"]').forEach((element) => {
-    element.parentElement.parentElement.parentElement.parentElement.remove();
+    element.parentElement.parentElement.parentElement.parentElement.parentElement.remove();
   });
 };
